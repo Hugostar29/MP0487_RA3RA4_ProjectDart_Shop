@@ -2,7 +2,7 @@ import 'package:shop/src/internal.dart';
 import 'package:shop/src/constants.dart';
 import 'package:test/test.dart';
 
-void main() {
+void main() {                                                     
   group('Core Functions Tests', () {
     test('#1. Product should be created with correct properties', () {
       final product = Product(AppConstants.defaultLaptopId, AppConstants.defaultLaptopName, AppConstants.defaultLaptopPrice);
